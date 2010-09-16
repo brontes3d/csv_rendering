@@ -1,0 +1,12 @@
+= CSV Rendering
+
+just a stub of code for rendering CSV from controller, designed for use in conjunction with yui_datatable plugin (so you can render a csv with the same contents as a data table normally rendered in html/json)
+	
+For Example:
+	
+	render_data_table_as_csv(BlogPostsDatatable.new(self), BlogPosts.find(:all))
+	
+	
+Copyright (c) 2009-2010 3M. All rights reserved. Released under the MIT license.
+
+Authored by Jacob Burkhart.
